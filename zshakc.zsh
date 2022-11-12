@@ -2,13 +2,16 @@
 
 # -------------------------------- Config Begin --------------------------------
 
+# If you prefer writing configurations in a separate file, just move this code
+# block to a seperate file, say `conf.zsh`, then add `source conf.zsh` here.
+
 NET_TIMEOUT=5  # in seconds
 CACHE_TTL=3600  # in seconds
 CACHE_DIR=/tmp/zshakc
 
 declare -A USER_MAP=(
     [qc]='QuarticCat'
-    [jumpuser]='QuarticCat Enter-tainer'
+    [jumpuser]='QuarticCat Enter-tainer'  # space-separated
 )
 
 # --------------------------------- Config End ---------------------------------
