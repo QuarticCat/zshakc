@@ -1,6 +1,6 @@
 #!/bin/zsh -e
 
-# -------------------------------- Config Begin --------------------------------
+# =============================== Config Begin =============================== #
 
 # If you prefer writing configurations in a separate file, just move this code
 # block to a seperate file, say `conf.zsh`, then add `source conf.zsh` here.
@@ -14,7 +14,7 @@ declare -A USER_MAP=(
     [jumpuser]='QuarticCat Enter-tainer'  # space-separated
 )
 
-# --------------------------------- Config End ---------------------------------
+# ================================ Config End ================================ #
 
 mkdir -p $CACHE_DIR
 
